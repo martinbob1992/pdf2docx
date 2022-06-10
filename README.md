@@ -14,3 +14,5 @@ pip install cx_freeze
 # 这180M主要是因为pdf2docx引用了opencv大概占用100M，numpy占用40M
 cxfreeze main.py -O -c --base-name=Win32GUI --icon pdf.ico --target-dir out --target-name=pdf2docx --include-files pdf.png --exclude-modules=asyncio,concurrent,ctypes,curses,distutils,fire,importlib_metadata,lib2to3,msilib,PIL,pkg_resources,pydoc_data,pytz,setuptools,test,xml,xmlrpc,email,html,http,numpy_mkl,unittest
 ```
+
+![](https://github.com/martinbob1992/pdf2docx/blob/main/1.png?raw=true)
