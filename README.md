@@ -1,5 +1,8 @@
 # pdf2docx
 
+不想自己手动编译的可以直接进行下载 [pdf2docx.exe](https://github.com/martinbob1992/pdf2docx/releases/tag/v1.0.0)
+
+# 安装python包
 ```
 # 文档转码工具包
 pip install pdf2docx
